@@ -15,6 +15,7 @@
 ```C
     double *arr2 = NULL;
     array_initialize(&arr2, 10, sizeof(double));
+
     for (int i = 0; i < 10; i++)
     {
         double num = i + 1.5;
