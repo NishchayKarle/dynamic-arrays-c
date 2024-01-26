@@ -33,9 +33,8 @@ extern void array_push_back(void *_array_reference, void *_element);
  * Pop back / remove element from end of the array
  *
  * @param _array_reference: reference to the array
- * @param _element: element to be added to the array
  */
-extern void array_pop_back(void *_array_reference, void *_element);
+extern void array_pop_back(void *_array_reference);
 
 /**
  * Clear all the elements in the array

@@ -10,6 +10,15 @@
         int num = i + 1;
         array_push_back(&arr1, &num);
     }
+
+    while (1)
+    {
+        int len = array_length(&arr1);
+        if (len == 0)
+            break;
+        printf("val: %d\n", arr1[len - 1]);
+        array_pop_back(&arr1);
+    }
 ```
 
 ```C

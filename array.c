@@ -62,6 +62,12 @@ void array_push_back(void *_array_reference, void *_element)
     info->length++;
 }
 
+void array_pop_back(void *_array_reference)
+{
+    array_info *info = *(array_info **)_array_reference - 1;
+    info->length--;
+}
+
 void array_clear(void *_array_reference)
 {
     array_info *info = *(array_info **)_array_reference - 1;
